@@ -1,6 +1,6 @@
 $(document).ready(function(){
     deleteInit();
-    
+   // this is th updated delete.js file 
     
 })
 function deleteInit(){
@@ -29,7 +29,7 @@ function deleteStudent(studentId){
         type: "DELETE",
         success: function(){
         $("#confirmDelete").modal("hide");  
-            location.reload();
+            location.reload
         },
         error:function(){
             
